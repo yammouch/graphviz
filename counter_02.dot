@@ -1,0 +1,14 @@
+digraph G {
+  cl [pos="50,100!"]
+  cl->mx1
+  en [pos="50,200!"]
+  en->mx2
+  mx2->mx1
+  c0->mx1
+  mx1->dff
+  cnt [pos="550,200!"]
+  dff->cnt
+  dff->add
+  c1->add
+  add->mx2
+}

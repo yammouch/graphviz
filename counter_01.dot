@@ -1,0 +1,13 @@
+digraph G {
+  graph [ rankdir = "LR" ]
+  { rank = same; "cl"; "en" }
+  cl->mx1
+  en->mx2
+  mx2->mx1
+  c0->mx1
+  mx1->dff
+  dff->cnt
+  dff->add
+  c1->add
+  add->mx2
+}
